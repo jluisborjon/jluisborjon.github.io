@@ -1,0 +1,95 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body{
+background-color: rgb(195, 197, 191);
+margin: 1em;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  display: flex;
+  justify-content:flex-end;
+  margin-right: 2em;
+  background-color: rgb(195, 197, 191);
+  font-family: 'Space Mono', monospace;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  color: black;
+  padding: 7px 10px;
+  text-decoration: none;
+  text-align: center;
+  border-top: 2px solid red;
+  margin: 2em;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  color: rgb(223, 82, 49);
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+7
+
+  .navbar {
+    flex-direction: column;
+    display: inline-block;
+  }
+}
+/* Style the top navigation bar */
+.navbar {
+  display: flex;
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 6em;
+  color: rgb(195, 197, 191);
+  color: black;
+  margin-right: 50px;
+}
+h1{
+  font-family: 'Russo One', sans-serif;
+  font-size: 6em;
+  color: rgb(223, 82, 49);
+}
+
+h2{
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 1.5em;
+  color: black;
+}
+
+.name{
+  border: 2em;
+  display: inline-flex;
+  text-align: right;
+  margin: 200px 0px 0px 75px;
+  line-height: 90%;
+}
+
+.webd{
+  margin-left: .5em;
+  display: inline-flex;
+  justify-content: left;
+  line-height: 95%;
+}
+
+/* Footer */
+/* footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+} */
+
+/* If the screen size is 600px or less, set the font-size of <div> to 30px */
+@media only screen and (max-width: 600px) {
+  body{
+    font-size: 10px;
+  }
+  .navbar a{
+    font-family: 'Russo One', sans-serif;
+  }
+}
