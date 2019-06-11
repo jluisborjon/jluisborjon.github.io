@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+/* Style the body navigation bar */
 body{
 background-color: rgb(195, 197, 191);
 margin: 1em;
@@ -33,7 +34,7 @@ margin: 1em;
   color: rgb(223, 82, 49);
 }
 
-/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other*/
 7
 
   .navbar {
@@ -50,18 +51,21 @@ margin: 1em;
   color: black;
   margin-right: 50px;
 }
+/* Styles all h1 tag */
 h1{
   font-family: 'Russo One', sans-serif;
   font-size: 6em;
   color: rgb(223, 82, 49);
 }
 
+/* Styles all h2 tag */
 h2{
   font-family: 'Rubik Mono One', sans-serif;
   font-size: 1.5em;
   color: black;
 }
 
+/* style the name (Luis Borjon) */
 .name{
   border: 2em;
   display: inline-flex;
@@ -70,6 +74,7 @@ h2{
   line-height: 90%;
 }
 
+/* style the name (FULL STACK WEB DEVELOPER) */
 .webd{
   margin-left: .5em;
   display: inline-flex;
@@ -77,14 +82,14 @@ h2{
   line-height: 95%;
 }
 
-/* Footer */
+/* Style the Footer (without content for now) */
 /* footer {
   padding: 20px;
   text-align: center;
   background: #ddd;
 } */
 
-/* If the screen size is 600px or less, set the font-size of <div> to 30px */
+/* If the screen size is 600px or less, set the font-size to 10px & changes font's style */
 @media only screen and (max-width: 600px) {
   body{
     font-size: 10px;
