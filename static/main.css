@@ -6,8 +6,8 @@
 
 /* Style the body navigation bar */
 body{
-background-color: rgb(195, 197, 191);
-margin: 1em;
+  background-color: rgb(195, 197, 191);
+  margin: 1em;
 }
 
 /* Style the top navigation bar */
@@ -88,6 +88,14 @@ h2{
   text-align: center;
   background: #ddd;
 } */
+
+/* If the screen size is 1180px or more, set the body margin to: */
+@media only screen and (min-width: 1180px) {
+  body {
+    margin-right: 200px;
+    margin-left: 200px;
+  }
+}
 
 /* If the screen size is 600px or less, set the font-size to 10px & changes font's style */
 @media only screen and (max-width: 600px) {
